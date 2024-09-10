@@ -10,6 +10,16 @@
 		D5D9B22C2C8F594A00F2296B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9B22B2C8F594A00F2296B /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D5D9B2492C8FABC100F2296B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D9B2452C8FABC000F2296B /* valeriahometask.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5D9B23B2C8FABC000F2296B;
+			remoteInfo = valeriahometask;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D5D9B2262C8F594A00F2296B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +35,7 @@
 /* Begin PBXFileReference section */
 		D5D9B2282C8F594A00F2296B /* valeriabukova18 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = valeriabukova18; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D9B22B2C8F594A00F2296B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D5D9B2452C8FABC000F2296B /* valeriahometask.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = valeriahometask.xcodeproj; path = ../hometaskvaleria/valeriahometask/valeriahometask.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +52,7 @@
 		D5D9B21F2C8F594A00F2296B = {
 			isa = PBXGroup;
 			children = (
+				D5D9B2452C8FABC000F2296B /* valeriahometask.xcodeproj */,
 				D5D9B22A2C8F594A00F2296B /* valeriabukova18 */,
 				D5D9B2292C8F594A00F2296B /* Products */,
 			);
@@ -60,6 +72,14 @@
 				D5D9B22B2C8F594A00F2296B /* main.cpp */,
 			);
 			path = valeriabukova18;
+			sourceTree = "<group>";
+		};
+		D5D9B2462C8FABC000F2296B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9B24A2C8FABC100F2296B /* valeriahometask */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,12 +127,28 @@
 			mainGroup = D5D9B21F2C8F594A00F2296B;
 			productRefGroup = D5D9B2292C8F594A00F2296B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D5D9B2462C8FABC000F2296B /* Products */;
+					ProjectRef = D5D9B2452C8FABC000F2296B /* valeriahometask.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D5D9B2272C8F594A00F2296B /* valeriabukova18 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D5D9B24A2C8FABC100F2296B /* valeriahometask */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = valeriahometask;
+			remoteRef = D5D9B2492C8FABC100F2296B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5D9B2242C8F594A00F2296B /* Sources */ = {
